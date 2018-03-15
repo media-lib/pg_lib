@@ -2,6 +2,8 @@
 Security Notes:
 ==============
 
+* "$HOME/.pgpass": permissions should be u=rw (0600) or less
+
 * trust = never use
 * specific users, even for superusers. Don't use
   'postgres' user. Use LDAP instead.
