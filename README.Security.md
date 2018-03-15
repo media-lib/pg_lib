@@ -28,7 +28,17 @@ Security Notes:
   * set logging to min. 0 to log psql and pgadmin4 activity.
   * encrypt the logs if storing in clouds.
 
-Videos:
-* http://www.youtube.com/watch?v=s-BvKkVSyTA
-* https://www.youtube.com/watch?v=20FNSWhatq4
-* https://www.youtube.com/watch?v=_wU2dglywAU
+* Behind a firewall.
+
+* pg_hba.conf:
+  * Use md5, not Trust
+  * Bottom: host all all all reject
+  * host: localhost only. Don't use '\*', '0.0.0.0', '::' as these are wildcard values for any address, IPv4 addresses, or 
+  IPv6 addresses.
+
+* Owners == small superuser that can grant itself other privileges. Create a read user and don't use the owner user/role for application connections.
+
+* Check for unnecesary privileges:
+  * "Testing Roles": https://blog.2ndquadrant.com/auditing-users-and-roles-in-postgresql/
+
+
