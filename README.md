@@ -1,5 +1,7 @@
 # pg\_lib
 
+https://severalnines.com/blog/become-postgresql-dba-understanding-architecture
+
 # Administration:
 * Remove public schemas:
   https://www.postgresql.org/docs/current/static/ddl-schemas.html#DDL-SCHEMAS-PATTERNS
