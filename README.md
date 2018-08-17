@@ -3,6 +3,7 @@
 https://severalnines.com/blog/become-postgresql-dba-understanding-architecture
 
 # Administration:
+* Config: "154\_pgcon\_201.pdf"
 * Remove public schemas:
   https://www.postgresql.org/docs/current/static/ddl-schemas.html#DDL-SCHEMAS-PATTERNS
 * user == role. Also, users are just roles with LOGIN privilege.
