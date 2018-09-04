@@ -2,6 +2,8 @@
 
 https://severalnines.com/blog/become-postgresql-dba-understanding-architecture
 
+* Data types: https://news.ycombinator.com/item?id=17871536
+
 # Administration:
 * Config: "154\_pgcon\_201.pdf"
 * Remove public schemas:
