@@ -2,6 +2,9 @@
 
 https://severalnines.com/blog/become-postgresql-dba-understanding-architecture
 
+* How to Manage Connections:
+  * https://news.ycombinator.com/item?id=18220906
+
 * Data types: https://news.ycombinator.com/item?id=17871536
 
 # Administration:
