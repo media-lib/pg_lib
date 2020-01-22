@@ -1,3 +1,8 @@
+
+# Self-contained stored procedures
+https://news.ycombinator.com/item?id=21362190
+
+
 # pg\_lib
 
 https://severalnines.com/blog/become-postgresql-dba-understanding-architecture
